@@ -1,0 +1,32 @@
+#title-container {
+  background-image: url("../../assests/Rectangle2.png");
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 27.5rem;
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.text-white {
+  overflow: hidden;
+}
+
+.pt-6 {
+  padding-top: 18rem;
+  padding-left: 10rem !important;
+}
+
+@media (max-width: 685px) {
+  .pt-6 {
+    padding-top: 18rem;
+    padding-left: 4rem !important;
+  }
+}
+
+@media (max-width: 510px) {
+  .pt-6 {
+    padding-top: 12rem;
+    padding-left: 3rem;
+  }
+}
